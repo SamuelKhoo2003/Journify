@@ -168,10 +168,6 @@ of the default styles for the quill editor (specifically the "snow" styles). */
     box-shadow: var(--toolbar-text-color/50) 0 2px 8px;
 }
 
-#journal .ql-toolbar .ql-snow {
-    background-color: #66523A !important;
-    border-color: #493b2a;
-}
 
 #journal .ql-editor {
     background-color: #66523A;

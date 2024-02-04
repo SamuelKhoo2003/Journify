@@ -21,10 +21,10 @@ export default function Home() {
       .filter(section => section.offsetTop >= (scrollPosition + 100))
       .sort((a, b) => a.offsetTop - b.offsetTop);
     if (sections.length > 0) {
-      if (sections[0].id !== nextSection) {
-        setIsShaking(true);
-        setTimeout(() => setIsShaking(false), 1000);
-      }
+      // if (sections[0].id !== nextSection) {
+      //   setIsShaking(true);
+      //   setTimeout(() => setIsShaking(false), 1000);
+      // }
       setNextSection(sections[0].id)
       console.log(nextSection)
     }

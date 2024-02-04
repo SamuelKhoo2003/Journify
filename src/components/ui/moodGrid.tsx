@@ -37,8 +37,8 @@ const MoodGrid: React.FC = () => {
 };
 
   return (
-    <div className="bg-[#1E293B] p-4 text-white flex-row ml-2 mr-2 rounded-lg">
-      <div className="text-sm mb-2">{countSentimentsForThisYear()} journal entries to date</div>
+    <div className="bg-stone-200 p-4 text-white flex-row ml-2 mr-2 rounded-lg">
+      <div className="text-sm mb-2" style={{ color: '#A98876' }}>{countSentimentsForThisYear()} journal entries to date</div>
       <div className="flex gap-1.5 justify-center">
         {Array.from({ length: weeks }).map((_, weekIndex) => (
           <div key={weekIndex} className="flex flex-col gap-1.5">

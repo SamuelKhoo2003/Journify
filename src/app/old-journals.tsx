@@ -61,7 +61,7 @@ export default function OldJournals() {
 
     return (
             <div className="flex flex-col z-50 opacity-85 bg-slate-800 p-10 gap-5 rounded-lg w-full items-left justify-center">
-            <h2 className='text-xl'>View Previous Journals</h2>
+            <h2 className='text-xl' style={{ color: '#D9C4B3' }}>View Previous Journals</h2>
             <div className="flex flex-row h-10 justify-between">
                 <Popover>
                     <PopoverTrigger asChild>

@@ -240,14 +240,14 @@ const Dashboard = () => {
         <div className="flex min-h-screen flex-col items-center justify-between .h-screen w-4/5">
             <div id="d" className="section align-top"></div>
             <div id="dashboard">
-                <h2 className='text-4xl mb-3 ml-2'>Your Moods</h2>
+                <h2 className='text-4xl mb-3 ml-2' style={{ color: '#D9C4B3' }}>Your Moods</h2>
                 <div id='graph-holder' className="align-top flex content-center w-[80vw] mb-3">
-                    <div className='m-2 w-1/2 rounded-lg p-3 bg-slate-800'>
-                        <h3 className='text-xl pr-2 ml-1 mb-2'>Last 7 days</h3>
+                    <div className='m-2 w-1/2 rounded-lg p-3 bg-stone-200'>
+                        <h3 className='text-xl pr-2 ml-1 mb-2' style={{ color: '#A98876' }}>Last 7 days</h3>
                         <canvas id='chart2' className='' ref={chartContainer2} />
                     </div>
-                    <div className='m-2 w-1/2 rounded-lg p-3 bg-slate-800'>
-                        <h3 className='text-xl pr-2 ml-1 mb-2'>Last 12 Months</h3>
+                    <div className='m-2 w-1/2 rounded-lg p-3 bg-stone-200'>
+                        <h3 className='text-xl pr-2 ml-1 mb-2' style={{ color: '#A98876' }}>Last 12 Months</h3>
                         <canvas id='chart1' className='' ref={chartContainer} />
                     </div>
                 </div>
