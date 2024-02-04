@@ -1,0 +1,5 @@
+#chart1, #chart2 {
+    z-index: 999;
+    position: relative;
+    background-color: hsl(var(--secondary));
+}
