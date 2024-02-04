@@ -76,6 +76,7 @@ export default function TextEditor() {
         // Get Sentiment score
         const sentimentValue = sentiment(adjustedValue).score;
 
+        console.log(sentimentValue)
         // Set journal
         setJournal(adjustedValue, sentimentValue);
     }

@@ -178,7 +178,7 @@
                 z-index: -1;
             }
             to {
-                -webkit-transform: translateY(-2000px);
+                -webkit-transform: translateY(2000px);
                 z-index: -1;
             }
         }
@@ -189,7 +189,7 @@
                 z-index: -1;
             }
             to {
-                -moz-transform: translateY(-2000px);
+                -moz-transform: translateY(2000px);
                 z-index: -1;
             }
         }
@@ -200,7 +200,7 @@
                 z-index: -1;
             }
             to {
-                -ms-transform: translateY(-2000px);
+                -ms-transform: translateY(2000px);
                 z-index: -1;
             }
         }
@@ -211,7 +211,7 @@
                 z-index: -1;
             }
             to {
-                transform: translateY(-2000px);
+                transform: translateY(2000px);
                 z-index: -1;
             }
         }
