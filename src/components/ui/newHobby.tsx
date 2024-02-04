@@ -15,7 +15,7 @@ export const NewHobbyDrawer: React.FC<NewHobbyDrawerProps> = ({ hobbies, setHobb
   return (
     <Drawer open={open} onOpenChange={setOpen}>
       <DrawerTrigger asChild>
-        <Button className ='mt-5 text-xl bg-lime-700 border-secondary text-white color-stone-200' >Add Mood</Button>
+        <Button className ='mt-5 text-xl bg-lime-700 border-secondary text-white color-stone-200' style={{ backgroundColor: "#D9C4B3", color: "#66523A" }}>Add Tagline</Button>
       </DrawerTrigger>
       <DrawerContent>
         <DrawerHeader className="text-left">
