@@ -15,7 +15,7 @@ export const NewHobbyDrawer: React.FC<NewHobbyDrawerProps> = ({ hobbies, setHobb
   return (
     <Drawer open={open} onOpenChange={setOpen}>
       <DrawerTrigger asChild>
-        <Button className ='mt-5 text-xl bg-blue-400 border-secondary text-white'>Add Mood</Button>
+        <Button className ='mt-5 text-xl bg-lime-700 border-secondary text-white color-stone-200' >Add Mood</Button>
       </DrawerTrigger>
       <DrawerContent>
         <DrawerHeader className="text-left">
@@ -56,7 +56,7 @@ const HobbyForm: React.FC<HobbyFormProps> = ({ hobbies, setHobbies, setOpen, cla
         </select>
         {/* <Input autoComplete='off' required type="text" id="hobbyInput" name="hobbyInput" defaultValue="" placeholder="Enter a new habbit" /> */}
       </div>
-      <Button type="submit">Add Mood</Button>
+      <Button type="submit" style={{backgroundColor: "#D9C4B3"}}>Add Tagline</Button>
     </form>
   );
 }
