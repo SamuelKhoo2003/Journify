@@ -17,7 +17,7 @@ const Insights = () => {
                 </p>
                 <br></br><br></br>
                 <p className="text-center">
-                    Our models predict a happiness ranking of 5 over the next month, looks good!
+                    Our models predict a happiness ranking of <span className="text-2xl text-green-600 font-extrabold">5</span>  over the next month, looks good!
                 </p>
             </h3>
             {/* <ColorChanger /> */}
