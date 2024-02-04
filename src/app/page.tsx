@@ -8,11 +8,10 @@ import Dashboard from "./dashboard";
 import Insights from "./insights"
 import OldJournals from "./old-journals"
 import ScrollDownButton from "@/components/ui/ScrollDownButton";
-import Rocket from "@/../public/rocket.png"
 import ColorChanger from "./color-changer";
 export default function Home() {
   const [nextSection, setNextSection] = useState('hobby');
-  const [isShaking, setIsShaking] = useState(false);
+  // const [isShaking, setIsShaking] = useState(false);
   const handleScroll = () => {
     // Obtain the current scroll position
     const scrollPosition = window.pageYOffset;

@@ -30,7 +30,7 @@ const HobbyTracker = () => {
     <div className="flex min-h-screen w-1/2 z-50 flex-col items-center justify-between">
       <div id="hobby" className="section align-top"></div>
       <div className='flex flex-col w-4/5'> 
-          <div className ="text-4xl mb-5">Have you been..</div>
+          <div className ="text-4xl mb-5" style={{ color: '#D9C4B3' }}>Have you been..</div>
           {hobbies.length > 0 ? (
               // hobbies.map((hobby, index) => (
               //   <div key={index} className="flex flex-row ">
@@ -39,7 +39,7 @@ const HobbyTracker = () => {
               //   </div>
               // ))
                 <div key={hobbies.length - 1} className="flex flex-row ">
-                  <HobbyText hobby={hobbies[hobbies.length-1]} index={hobbies.length - 1} deleteHobby={deleteHobby}/>
+                  <HobbyText hobby={hobbies[hobbies.length-1]} index={hobbies.length - 1} deleteHobby={deleteHobby} style={{ color: '#D9C4B3' }}/>
                   {/* <StreakCounter hobby={hobbies[hobbies.length-1]} index={hobbies.length-1} updateStreakCount={updateStreakCount}/> */}
                 </div>
             ) : (
