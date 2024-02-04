@@ -43,16 +43,6 @@ export default function Home() {
     //flex min-h-screen flex-col items-center justify-between pb-24
     <main className="flex-col w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
       {nextSection !== "newlast" ? <ScrollDownButton targetId={nextSection} /> : <div></div>}
-      <div className="fixed bottom-0 right-0 shake">
-        <div
-          style={{
-            animation: isShaking ? 'shake 0.5s ease-in-out infinite' : 'none',
-            display: 'inline-block'
-          }}
-        >
-          <Image src={Rocket} width={100} height={100} alt="Description" />
-        </div>
-      </div>
       <WelcomePage />
       <HobbyPage />
       <JournalPage />
