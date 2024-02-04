@@ -17,8 +17,8 @@ const journal = () => {
     <div id="journal" className="flex min-h-screen flex-col items-center justify-between .h-screen w-4/5">
       <div id="jj" className="section align-top"></div>
       <div className="">
-        <h2 className='text-4xl pr-2 mb-5'>What is on your mind?</h2>
-        <div className="text-xl text-center border-blue-300 border-2 bg-slate-900 p-5 py-4 mb-5 rounded-lg"> Your journal entry is auto saved.</div>
+        <h2 className='text-4xl pr-2 mb-5' style={{ color: '#D9C4B3' }}>What is on your mind?</h2>
+        <div className="text-xl text-center border-2 border-solid border-stone-600 bg-stone-500 p-5 py-4 mb-5 rounded-lg" style={{ color: '#D9C4B3' }}> Your journal entry is auto saved.</div>
         <TextEditor />
       </div>
       <div></div>
