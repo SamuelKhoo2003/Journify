@@ -37,7 +37,7 @@ const WelcomePage = () => {
     console.log("Submitted")
     let nameInput = document.getElementById("nameInput");
     if (nameInput != null) nameInput.value = thename
-    if (nameInput != null) nameInput.className = "animate__animated animate__bounce flex h-12 w-full rounded-md bg-transparent px-3 py-1 shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 border-0 focus:none text-blue-300 text-4xl focus-visible:ring-0";
+    if (nameInput != null) nameInput.className = "animate__animated animate__bounce flex h-12 w-full rounded-md bg-transparent px-3 py-1 shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 border-0 focus:none text-green-300 text-4xl focus-visible:ring-0";
     nameInput?.blur();
   }
   // Example usage:
