@@ -4,51 +4,52 @@
  
 
 @layer base {
-  :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
-    --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
-    --primary: 221.2 83.2% 53.3%;
-    --primary-foreground: 210 40% 98%;
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 221.2 83.2% 53.3%;
-    --radius: 0.75rem;
+    :root {
+      --background: #D9C4B3; /* Light background */
+      --foreground: #8E7A61; /* Dark foreground/text */
+      --card: #D9C4B3; /* Light card background */
+      --card-foreground: #8E7A61; /* Dark card text */
+      --popover: #D9C4B3; /* Light popover background */
+      --popover-foreground: #8E7A61; /* Dark popover text */
+      --primary: #D9C4B3; /* Light primary color */
+      --primary-foreground: #8E7A61; /* Dark primary text */
+      --secondary: #8E7A61; /* Dark secondary color */
+      --secondary-foreground: #D9C4B3; /* Light secondary text */
+      --muted: #8E7A61; /* Dark muted color */
+      --muted-foreground: #D9C4B3; /* Light muted text */
+      --accent: #8E7A61; /* Dark accent color */
+      --accent-foreground: #D9C4B3; /* Light accent text */
+      --destructive: #D9C4B3; /* Light destructive color */
+      --destructive-foreground: #8E7A61; /* Dark destructive text */
+      --border: #D9C4B3; /* Light border color */
+      --input: #D9C4B3; /* Light input background */
+      --ring: #8E7A61; /* Dark ring color */
+      --radius: 0.75rem;
+    }
+  
+    .dark {
+      --background: #8E7A61; /* Dark background */
+      --foreground: #D9C4B3; /* Light foreground/text */
+      --card: #8E7A61; /* Dark card background */
+      --card-foreground: #D9C4B3; /* Light card text */
+      --popover: #8E7A61; /* Dark popover background */
+      --popover-foreground: #D9C4B3; /* Light popover text */
+      --primary: #8E7A61; /* Dark primary color */
+      --primary-foreground: #D9C4B3; /* Light primary text */
+      --secondary: #D9C4B3; /* Light secondary color */
+      --secondary-foreground: #8E7A61; /* Dark secondary text */
+      --muted: #D9C4B3; /* Light muted color */
+      --muted-foreground: #8E7A61; /* Dark muted text */
+      --accent: #D9C4B3; /* Light accent color */
+      --accent-foreground: #8E7A61; /* Dark accent text */
+      --destructive: #8E7A61; /* Dark destructive color */
+      --destructive-foreground: #D9C4B3; /* Light destructive text */
+      --border: #8E7A61; /* Dark border color */
+      --input: #8E7A61; /* Dark input background */
+      --ring: #D9C4B3; /* Light ring color */
+    }
   }
-
-  .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
-    --primary: 217.2 91.2% 59.8%;
-    --primary-foreground: 0 0% 100%;
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
-    --border: 217.2 32.6% 17.5%;
-    /* --input: 217.2 32.6% 17.5%; */
-    --ring: 224.3 76.3% 48%;
-  }
-}
+  
 
 .app-background{
     background-color: #535F2D;

@@ -37,7 +37,7 @@ const WelcomePage = () => {
     console.log("Submitted")
     let nameInput = document.getElementById("nameInput");
     if (nameInput != null) nameInput.value = thename
-    if (nameInput != null) nameInput.className = "animate__animated animate__bounce flex h-12 w-full rounded-md bg-transparent px-3 py-1 shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 border-0 focus:none text-green-300 text-4xl focus-visible:ring-0";
+    if (nameInput != null) nameInput.className = "animate__animated animate__bounce flex h-12 w-full rounded-md bg-transparent px-3 py-1 shadow-sm transition-colors file:border-0 file:bg-transparent file:text-sm file:font-medium placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 border-0 focus:none text-blue-300 text-4xl focus-visible:ring-0";
     nameInput?.blur();
   }
   // Example usage:
@@ -53,9 +53,11 @@ const WelcomePage = () => {
     <div className="flex min-h-screen flex-col items-center justify-between w-1/2">
       <div></div>
       <div className="flex row items-center flex-shrink justify-center w-2/3">
-        <div className="text-4xl flex-grow">Welcome,</div>
+        <div className="text-4xl flex-grow" style={{ color: '#D9C4B3' }}>
+          Welcome,
+        </div>
         <Input id="nameInput" className= "flex h-12 flex-shrink px-8 border-0 border-blue-300 rounded-md bg-transparent px-3 py-1 transition-colors file:border-0 file:bg-transparent file:text-sm file:font-light placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 focus:none text-blue-300 text-4xl focus-visible:ring-0"
-        placeholder="your name" autoComplete="off" onChange={handleInputChange}/>
+        placeholder="your name" autoComplete="off" onChange={handleInputChange} style={{ color: '#8E7A61'}}/>
       </div>
       <div></div>
     </div>

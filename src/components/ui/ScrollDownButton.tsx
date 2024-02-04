@@ -21,7 +21,7 @@ const ScrollDownButton = ({ targetId }) => {
         width: '50px',
         height: '50px',
         borderRadius: '50%',
-        backgroundColor: '#007bff',
+        backgroundColor: '#9F8272',
         color: 'white',
         border: 'none',
         cursor: 'pointer',
