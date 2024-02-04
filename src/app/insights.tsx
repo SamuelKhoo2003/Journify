@@ -8,8 +8,8 @@ const Insights = () => {
     return (
         <div className="flex min-h-screen flex-col items-center justify-between w-4/5">
             <div id="notlast" className="section"></div>
-            <h2 className="text-4xl">Your Insights</h2>
-            <h3 className="text-2xl happiness-info">
+            <h2 className="text-4xl" style={{ color: '#D9C4B3' }}>Your Insights</h2>
+            <h3 className="text-2xl happiness-info" style={{ color: '#D9C4B3' }}>
                 {/* <span className="text-2xl font-extrabold">{formatToTwoDecimals(averageSentimentForPastYear())} </span> */}
                 You were <span className="text-2xl text-green-500 font-extrabold">happy</span> on average last year
                 over <span className="text-2xl font-extrabold">{formatToTwoDecimals(countJournalEntriesLastYear())}</span> entries!
