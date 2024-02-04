@@ -144,11 +144,11 @@ of the default styles for the quill editor (specifically the "snow" styles). */
 }
 
 .ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-label {
-    border-color: midnightblue;
+    border-color: rgb(25, 112, 61);
 }
 
 .ql-toolbar.ql-snow .ql-picker.ql-expanded .ql-picker-options {
-    border-color: midnightblue;
+    border-color: darkgreen;
 }
 
 .ql-snow .ql-picker.ql-expanded .ql-picker-label {
