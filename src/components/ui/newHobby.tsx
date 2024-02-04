@@ -13,25 +13,24 @@ export const NewHobbyDrawer: React.FC<NewHobbyDrawerProps> = ({ hobbies, setHobb
   const [open, setOpen] = useState<boolean>(false);
 
   return (
-    <Drawer open={open} onOpenChange={setOpen}>
-      <DrawerTrigger asChild>
-        <Button className ='mt-5 text-xl bg-lime-700 border-secondary text-white color-stone-200' style={{ backgroundColor: "#D9C4B3", color: "#66523A" }}>Add Tagline</Button>
-      </DrawerTrigger>
-      <DrawerContent>
-        <DrawerHeader className="text-left">
-          <DrawerTitle>Add Your Mood Today</DrawerTitle>
-          {/* <DrawerDescription>
-            Thinking of a new daily habit? It can be anything to keep you sane and happy!
-          </DrawerDescription> */}
-        </DrawerHeader>
-        <HobbyForm hobbies={hobbies} setHobbies={setHobbies} setOpen={setOpen} className="px-4"/>
-        <DrawerFooter className="pt-2">
-          <DrawerClose asChild>
-            <Button variant="outline">Cancel</Button>
-          </DrawerClose>
-        </DrawerFooter>
-      </DrawerContent>
-    </Drawer>
+    <div className="max-w-0 5">
+      <Drawer open={open} onOpenChange={setOpen}>
+        <DrawerTrigger asChild>
+          <Button className ='mt-5 text-xl bg-lime-700 border-secondary text-white color-stone-200' style={{ backgroundColor: "#D9C4B3", color: "#66523A" }}>Add Tagline</Button>
+        </DrawerTrigger>
+        <DrawerContent>
+          <DrawerHeader className="text-left">
+            <DrawerTitle>Add Your Mood Today</DrawerTitle>
+          </DrawerHeader>
+          <HobbyForm hobbies={hobbies} setHobbies={setHobbies} setOpen={setOpen} className="px-4"/>
+          <DrawerFooter className="pt-2">
+            <DrawerClose asChild>
+              <Button variant="outline">Cancel</Button>
+            </DrawerClose>
+          </DrawerFooter>
+        </DrawerContent>
+      </Drawer>
+    </div>
   )
 }
 const HobbyForm: React.FC<HobbyFormProps> = ({ hobbies, setHobbies, setOpen, className }) => {

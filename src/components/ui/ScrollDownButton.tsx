@@ -29,7 +29,7 @@ const ScrollDownButton = ({ targetId }) => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        zIndex: 999,
+        zIndex: 49,
       }}
       aria-label="Scroll down"
     >
