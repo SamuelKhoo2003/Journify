@@ -15,14 +15,14 @@ export const NewHobbyDrawer: React.FC<NewHobbyDrawerProps> = ({ hobbies, setHobb
   return (
     <Drawer open={open} onOpenChange={setOpen}>
       <DrawerTrigger asChild>
-        <Button className ='mt-5 text-xl bg-blue-400 border-secondary text-white'>Add Habit</Button>
+        <Button className ='mt-5 text-xl bg-blue-400 border-secondary text-white'>Add Mood</Button>
       </DrawerTrigger>
       <DrawerContent>
         <DrawerHeader className="text-left">
-          <DrawerTitle>Add Daily Habit</DrawerTitle>
-          <DrawerDescription>
+          <DrawerTitle>Add Your Mood Today</DrawerTitle>
+          {/* <DrawerDescription>
             Thinking of a new daily habit? It can be anything to keep you sane and happy!
-          </DrawerDescription>
+          </DrawerDescription> */}
         </DrawerHeader>
         <HobbyForm hobbies={hobbies} setHobbies={setHobbies} setOpen={setOpen} className="px-4"/>
         <DrawerFooter className="pt-2">
@@ -46,10 +46,17 @@ const HobbyForm: React.FC<HobbyFormProps> = ({ hobbies, setHobbies, setOpen, cla
   return (
     <form className={`grid items-start gap-4 ${className}`} onSubmit={addNewHobby}>
       <div className="grid gap-2">
-        <Label htmlFor="hobbyInput">New Habit</Label>
-        <Input autoComplete='off' required type="text" id="hobbyInput" name="hobbyInput" defaultValue="" placeholder="Enter a new habbit" />
+        {/* <Label htmlFor="hobbyInput">New Habit</Label> */}
+        <select className="px-4 ga-4" name="hobbyInput" id="hobbyInput">
+          <option value="Very Happy">Very Happy</option>
+          <option value="Happy">Happy</option>
+          <option value="Neutral">Neutral</option>
+          <option value="Not too good">Not too good</option>
+          <option value="Sad">Sad</option>
+        </select>
+        {/* <Input autoComplete='off' required type="text" id="hobbyInput" name="hobbyInput" defaultValue="" placeholder="Enter a new habbit" /> */}
       </div>
-      <Button type="submit">Add Habit</Button>
+      <Button type="submit">Add Mood</Button>
     </form>
   );
 }
