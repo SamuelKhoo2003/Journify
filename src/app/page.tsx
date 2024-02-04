@@ -9,6 +9,7 @@ import Insights from "./insights"
 import OldJournals from "./old-journals"
 import ScrollDownButton from "@/components/ui/ScrollDownButton";
 import ColorChanger from "./color-changer";
+
 export default function Home() {
   const [nextSection, setNextSection] = useState('hobby');
   // const [isShaking, setIsShaking] = useState(false);
@@ -39,7 +40,6 @@ export default function Home() {
     };
   }, [nextSection]);
   return (
-    //flex min-h-screen flex-col items-center justify-between pb-24
     <main className="flex-col w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
       {nextSection !== "newlast" ? <ScrollDownButton targetId={nextSection} /> : <div></div>}
       <WelcomePage />

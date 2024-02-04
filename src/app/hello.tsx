@@ -53,17 +53,21 @@ const WelcomePage = () => {
     <div className="flex min-h-screen flex-col items-center justify-between w-1/2">
       <div></div>
       <div className="flex row items-center flex-shrink justify-center w-2/3">
-        <div className="text-4xl flex-grow" style={{ color: '#D9C4B3' }}>
-          Welcome to <span style={{ color: '#E5E7EB', fontWeight: 'bold' }}>Journify</span>,
+        <div className="col-md-6 text-4xl flex-grow" style={{ color: '#D9C4B3', fontSize: "48px"}}>
+          <p className="pb-3">
+            Welcome to <span style={{ color: '#E5E7EB', fontWeight: 'bold' }}>Journify</span>,
+
+          </p>
+          <Input
+            id="nameInput"
+            className="flex justify-center h-12 flex-shrink px-8 border-0 border-blue-300 rounded-md bg-transparent px-3 py-1 transition-colors file:border-0 file:bg-transparent file:text-sm file:font-light placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 focus:none text-blue-300 text-4xl focus-visible:ring-0"
+            placeholder="your name ..."
+            autoComplete="off"
+            onChange={handleInputChange}
+            style={{ color: '#8E7A61'}}
+            />
         </div>
-        <Input
-          id="nameInput"
-          className="flex h-12 flex-shrink px-8 border-0 border-blue-300 rounded-md bg-transparent px-3 py-1 transition-colors file:border-0 file:bg-transparent file:text-sm file:font-light placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-ring disabled:cursor-not-allowed disabled:opacity-50 focus:none text-blue-300 text-4xl focus-visible:ring-0"
-          placeholder="your name ..."
-          autoComplete="off"
-          onChange={handleInputChange}
-          style={{ color: '#8E7A61'}}
-        />
+        <div className="col-md-6"></div>     {/* Don't remove this */}
       </div>
       <div></div>
     </div>
