@@ -60,9 +60,9 @@ export default function OldJournals() {
     }
 
     return (
-            <div className="flex flex-col z-50 opacity-85 bg-slate-800 p-10 gap-5 rounded-lg w-full items-left justify-center">
-            <h2 className='text-xl' style={{ color: '#D9C4B3' }}>View Previous Journals</h2>
-            <div className="flex flex-row h-10 justify-between">
+            <div className="flex flex-col z-50 opacity-85 bg-stone-200 p-10 gap-5 rounded-lg w-full items-left justify-center" >
+            <h2 className='text-xl' style={{ color: '#A98876' }}>View Previous Journals</h2>
+            <div className="flex flex-row h-10 justify-between" style={{ color: '#A98876' }}>
                 <Popover>
                     <PopoverTrigger asChild>
                         <Button
@@ -72,8 +72,8 @@ export default function OldJournals() {
                                 !date && "text-muted-foreground"
                             )}
                         >
-                            <CalendarIcon className="mr-2 h-4 w-4" />
-                            {date ? format(date, "PPP") : <span>Pick a date</span>}
+                            <CalendarIcon className="mr-2 h-4 w-4" style={{ color: '#A98876' }}/>
+                            {date ? format(date, "PPP") : <span style={{ color: '#A98876' }}>Pick a date</span>}
                         </Button>
                     </PopoverTrigger>
                     <PopoverContent className="w-auto p-0" align="start">
@@ -85,18 +85,15 @@ export default function OldJournals() {
                         />
                     </PopoverContent>
                 </Popover>
-                <Card className="flex">
-                    <CardContent className='p-0 px-2 pt-2 pb-0 w-40 text-s text-center align-center'>{sentiment ? "Sentiment: " + sentiment: "No Score"}</CardContent>
-                </Card>
-            </div> 
-            <Card>
+            </div>
+            <Card className={{ color: '#A98876' }}>
                 <CardHeader>
                     <CardTitle>
-                    <p id="title"></p>
+                    <p id="title" style={{ color: '#A98876' }}></p>
                     </CardTitle>
                 </CardHeader>
                 <CardContent>
-                    <p id="content"></p>
+                    <p id="content" style={{ color: '#A98876' }}></p>
                 </CardContent>
             </Card>
         </div>

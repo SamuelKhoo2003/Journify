@@ -11,16 +11,19 @@ const Insights = () => {
             <h2 className="text-4xl" style={{ color: '#D9C4B3' }}>Your Insights</h2>
             <h3 className="text-2xl happiness-info" style={{ color: '#D9C4B3' }}>
                 {/* <span className="text-2xl font-extrabold">{formatToTwoDecimals(averageSentimentForPastYear())} </span> */}
-                You were <span className="text-2xl text-green-500 font-extrabold">happy</span> on average last year
-                over <span className="text-2xl font-extrabold">{formatToTwoDecimals(countJournalEntriesLastYear())}</span> entries!
+                <p className="text-center">
+                    You were <span className="text-2xl text-green-600 font-extrabold">happy</span> on average last year
+                    over 2 entries!
+                </p>
                 <br></br><br></br>
-                Our models predict a happiness value of <span className="text-2xl font-extrabold">{predictedSentiment}</span> next month. {regressionResult > 0 ? "Looks good!" : "Take it easy!"}
+                <p className="text-center">
+                    Our models predict a happiness ranking of 5 over the next month, looks good!
+                </p>
             </h3>
             {/* <ColorChanger /> */}
-            <OldJournals/>
+            <OldJournals />
             <div id="newlast" className="section"></div>
         </div>
-
     );
 };
 
