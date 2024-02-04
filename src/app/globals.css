@@ -161,7 +161,7 @@
             -ms-animation: animStar 600s linear infinite;
             animation: animStar 600s linear infinite;
         }
-        
+
         #stars4:after {
             z-index: -1;
             content: " ";

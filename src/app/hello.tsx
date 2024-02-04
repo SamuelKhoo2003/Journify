@@ -56,7 +56,6 @@ const WelcomePage = () => {
         <div className="col-md-6 text-4xl flex-grow" style={{ color: '#D9C4B3', fontSize: "40px"}}>
           <p className="pb-3">
             Welcome to <span className='p-3' style={{ color: '#E5E7EB', fontWeight: 'bold' }}>Journify</span>,
-
           </p>
           <Input
             id="nameInput"

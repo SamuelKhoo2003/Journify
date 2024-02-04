@@ -11,13 +11,13 @@ of the default styles for the quill editor (specifically the "snow" styles). */
 #journal .ql-toolbar {
     border-radius: 12px 12px 0 0;
     border-color: #7F5D53;
-    background-color: #4beea2;
+    background-color: #7F5D53;
 }
 
 #journal .ql-container {
     border-radius: 0 0 12px 12px;
-    border-color: rgb(0, 195, 255);
-    background-color: #e6e3f7;
+    border-color: rgb(255, 255, 255);
+    background-color: #f9f9f9;
 }
 
 /* i basically went into the snow style sheet and copy pasted all of their styles except changed the colours */
