@@ -13,37 +13,37 @@ Features include a mood tracker, journal history log, and predictive happiness s
 </details>
 
 <details>
-<summary>How did we build it?</summary>
+<summary><strong> How did we build it? </strong></summary>
 We leveraged our front-end development experience, using TypeScript with Next.js and Tailwind for their popularity and support. We divided tasks based on individual strengths and used git branches with defined objectives to ensure efficient development.
 </details>
 
 <details>
-<summary>Challenges we ran into</summary>
+<summary><strong> Challenges we ran into </strong></summary>
 Initially, we considered integrating the Spotify API for mood-based song recommendations and extensive NLP for mood detection. However, due to limited time and manpower, we refined our requirements to focus on essential features that stand out and leave room for future enhancements.
 </details>
 
 <details>
-<summary>Accomplishments that we're proud of</summary>
+<summary><strong>Accomplishments that we're proud of </strong></summary>
 For a two-person team, we're proud of our product. We aimed to design a simplistic, aesthetic interface easy for beginners to navigate. Highlights include the journal timeline (inspired by GitHub activity) and the search functionality, complemented by semantic analysis.
 </details>
 
 <details>
-<summary>What we learned</summary>
+<summary><strong> What we learned </strong></summary>
 Building Journify was an invaluable experience, enhancing our skills with Next.js, Tailwind, pair programming, and ergonomic UI design. It also improved our project management abilities by setting realistic deadlines and focusing on user-centric features.
 </details>
 
 <details>
-<summary>What's next for Journify!</summary>
+<summary><strong>What's next for Journify!</strong></summary>
 We have several ideas for future enhancements, including an NLP-based “montage” feature to summarize users’ past weeks or months. This will help users appreciate the present and reflect on their experiences. So, why not start your jour-ney with Jour-nify?
 </details>
 
 ### Journify In Action
 A quick look into what Journify looks like and its core features!
 
-![Journify-Landing](journify_home.png)  
-![Journify-Tagline](journify_tag.png)  
-![Journify-Entry](journify_entry.png)  
-![Journify-Model](journify_model.png)  
+![Journify-Landing](journify_home.png)
+![Journify-Tagline](journify_tag.png)
+![Journify-Entry](journify_entry.png)
+![Journify-Model](journify_model.png)
 ![Journify-Stats](journify_stats.png)
 
 ## Getting Started
@@ -57,3 +57,5 @@ yarn dev
 pnpm dev
 # or
 bun dev
+```
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
