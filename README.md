@@ -1,12 +1,12 @@
 # Journify
 
-> **Our Inspiration**  
+**Our Inspiration**  
 Everyone needs an outlet, whether it is the child returning from school, a busy adult after a long day of work, or a retiree resting on a rocking chair. We all need a way to wind down. This is especially true for those suffering from extreme mental stress, where their circumstances often overpower their own need and their inner voice gets repetitively ignored. To address this, we propose an age-old idea—writing a journal. Though simplistic, reflecting on the day and processing how certain actions impact us (instead of suppressing them) is a powerful method of relief that has time and time again affirmed its continuity.
 
 Journify is our modern take on a journal that aims to build this into a lifelong habit. For those in volatile environments, the contrasting stability of routine often brings a sense of calmness and peace.
 
 <details>
-<summary>What is Journify?</summary>
+<summary><strong> What is Journify?</strong></summary>
 Journify is a web app that combines the benefits of journaling with the accessibility of devices and the power of semantic analysis. With a minimal, ergonomic UI and a calming pastel color palette, it creates a welcoming environment for users to express their thoughts.
 
 Features include a mood tracker, journal history log, and predictive happiness score, helping users track their emotions and well-being over time. The journal timeline feature encourages regular use by displaying ongoing streaks.
