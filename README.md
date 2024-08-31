@@ -40,11 +40,11 @@ We have several ideas for future enhancements, including an NLP-based “montage
 ### Journify In Action
 A quick look into what Journify looks like and its core features!
 
-![Journify-Landing](journify_home.png)
-![Journify-Tagline](journify_tag.png)
-![Journify-Entry](journify_entry.png)
-![Journify-Model](journify_model.png)
-![Journify-Stats](journify_stats.png)
+![Journify-Landing](demo_assets/journify_home.png)
+![Journify-Tagline](demo_assets/journify_tag.png)
+![Journify-Entry](demo_assets/journify_entry.png)
+![Journify-Model](demo_assets/journify_model.png)
+![Journify-Stats](demo_assets/journify_stats.png)
 
 ## Getting Started
 First, run the development server:
